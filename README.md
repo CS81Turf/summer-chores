@@ -1,6 +1,6 @@
 # Summer Chores Project
 
-This project simulates a person completing their summer chores using JavaScript callbacks and Promises. Each task(like mowing, weed eating, trimming, etc.) takes a certain amount of time, and there's a chance the person might fall asleep before finishing all their chores. This project demonstrates asynchronous behavior using setTimeout() and explores two ways to manage async code -- callback chaining, also known as "callback hell" and a cleaner Promise-based approach.
+This project simulates a person completing their summer chores using JavaScript callbacks, Promises, and async/await. Each task(like mowing, weed eating, trimming, etc.) takes a certain amount of time, and there's a chance the person might fall asleep before finishing all their chores. This project demonstrates asynchronous behavior using setTimeout() and explores multiple ways to manage async code in JavaScript.
 
 ---
 
@@ -17,6 +17,11 @@ This project simulates a person completing their summer chores using JavaScript 
 - How to chain .then() and .catch() to handle success and errors.
 - How Promises make asynchronous code flow more like synchronous code.
 - How to reject a Promise to simulate the person falling asleep.
+
+### Async/Await Version
+- How to use async functions and await to write sequential asynchronous code.
+- How async/await makes code more readable compared to callback chains.
+- How to handle errors with try/catch.
 
 ---
 
@@ -39,4 +44,9 @@ This project simulates a person completing their summer chores using JavaScript 
     ```bash
     node promiseVersion.js
 
-5. Watch the console logs to see whether the person finishes their chores before falling asleep!
+5. Run the async/awaitVersion.
+    ```bash
+    node asyncAwaitVersion.js
+
+6. Watch the console logs to see whether the person finishes their chores before falling asleep!
+
